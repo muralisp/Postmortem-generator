@@ -47,8 +47,8 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Edit `.env` and add your API key. It defaults to Claude via Anthropic's
-OpenAI-compatible endpoint — see [Switching LLM providers](#switching-llm-providers)
+Edit `.env` and add your API key. It defaults to Groq via Groq's
+OpenAI-compatible endpoint. You can generate an api key for free of cost and start experimenting — see [Switching LLM providers](#switching-llm-providers)
 below to use something else.
 
 Run it:
